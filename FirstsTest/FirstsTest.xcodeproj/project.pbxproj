@@ -14,6 +14,7 @@
 		C2E2C11F1C9A3EEF0068E695 /* FirstsTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C2E2C11D1C9A3EEF0068E695 /* FirstsTest.xcdatamodeld */; };
 		C2E2C1211C9A3EEF0068E695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2E2C1201C9A3EEF0068E695 /* Assets.xcassets */; };
 		C2E2C1241C9A3EEF0068E695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2E2C1221C9A3EEF0068E695 /* LaunchScreen.storyboard */; };
+		C2E2C12D1C9A44F70068E695 /* RootView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E2C12C1C9A44F70068E695 /* RootView.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,8 @@
 		C2E2C1201C9A3EEF0068E695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2E2C1231C9A3EEF0068E695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2E2C1251C9A3EEF0068E695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2E2C12B1C9A44F70068E695 /* RootView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootView.h; sourceTree = "<group>"; };
+		C2E2C12C1C9A44F70068E695 /* RootView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,8 @@
 				C2E2C1151C9A3EEF0068E695 /* AppDelegate.m */,
 				C2E2C1171C9A3EEF0068E695 /* ViewController.h */,
 				C2E2C1181C9A3EEF0068E695 /* ViewController.m */,
+				C2E2C12B1C9A44F70068E695 /* RootView.h */,
+				C2E2C12C1C9A44F70068E695 /* RootView.m */,
 				C2E2C11A1C9A3EEF0068E695 /* Main.storyboard */,
 				C2E2C1201C9A3EEF0068E695 /* Assets.xcassets */,
 				C2E2C1221C9A3EEF0068E695 /* LaunchScreen.storyboard */,
@@ -156,6 +161,7 @@
 				C2E2C1161C9A3EEF0068E695 /* AppDelegate.m in Sources */,
 				C2E2C11F1C9A3EEF0068E695 /* FirstsTest.xcdatamodeld in Sources */,
 				C2E2C1131C9A3EEF0068E695 /* main.m in Sources */,
+				C2E2C12D1C9A44F70068E695 /* RootView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
